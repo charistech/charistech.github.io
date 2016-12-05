@@ -1,4 +1,3 @@
-
 /* =================================== */
 /*	Basic Style 
 /* =================================== */
@@ -76,10 +75,10 @@ body > section,
 .sec-title {}
 
 .sec-title h2 {
-  color: #0eb493;
-  font-size: 28px;
-  font-weight: 800;
-  text-transform: uppercase;
+	color: #0080FF;
+	font-size: 28px;
+	font-weight: 800;
+	text-transform: uppercase;
 }
 
 .sec-sub-title {
@@ -130,9 +129,10 @@ body > section,
 }
 
 #preloader > img {
-  left: 47%;
-  position: absolute;
-  top: 48%;
+	left: 583px;
+	position: absolute;
+	top: 255px;
+	height: 158px;
 }
 
 
@@ -192,12 +192,16 @@ body > section,
 }
 
 .carousel-caption h2 {
-  font-size: 62px;
-  font-weight: 300;
+	font-size: 62px;
+	font-weight: 300;
+	color: #0080FF;
+	direction: inherit;
 }
 
 .carousel-caption h2 span {
-  font-weight: 800;
+	font-weight: 800;
+	position: relative;
+	text-justify: 50;
 }
 
 .carousel-caption h3 {
@@ -214,7 +218,7 @@ body > section,
 
 .carousel-caption p:before,
 .carousel-caption p:after {
-color: #0feb9e;
+color: #fff;
 content: "___";
 position: relative;
 top: -8px;
@@ -566,7 +570,8 @@ top: -8px;
 }
 
 .contact-address p {
-  line-height: 24px;
+	line-height: 24px;
+	color: #070707;
 }
 
 .contact-form {}
@@ -628,14 +633,18 @@ label.error {
 }
 
 .footer-social li a {
-  color: #cdd2d6;
-  display: block;
-  margin-bottom: 10px;
+	color: #cdd2d6;
+	display: block;
+	margin-bottom: 10px;
+	text-align: center;
 }
 
 #map_canvas {
-  height: 215px;
-  width: 100%;
+	height: 215px;
+	width: 100%;
+	text-align: right;
+	color: #0080FF;
+	font-family: Tahoma, Geneva, sans-serif;
 }
 
 
